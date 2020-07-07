@@ -7,4 +7,11 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="refresh_periods">
+        <item>15 mins</item>
+        <item>10 mins</item>
+        <item>5 mins</item>
+        <item>1 min</item>
+    </string-array>
 </resources>

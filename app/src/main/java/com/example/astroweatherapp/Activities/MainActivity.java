@@ -1,12 +1,14 @@
-package com.example.astroweatherapp;
+package com.example.astroweatherapp.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
 import com.example.astroweatherapp.Adapter.FragmentAdapter;
+import com.example.astroweatherapp.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,5 +38,10 @@ public class MainActivity extends AppCompatActivity {
                             | View.SYSTEM_UI_FLAG_FULLSCREEN
                             | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
         }
+    }
+
+    public void settingsButton(View view) {
+        Intent intent = new Intent(this, SettingsActivity.class);
+        this.startActivity(intent);
     }
 }

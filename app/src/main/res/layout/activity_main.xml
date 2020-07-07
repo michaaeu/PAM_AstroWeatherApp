@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".Activities.MainActivity"
     android:background="@color/DarkGray">
 
     <TableLayout
@@ -77,7 +77,8 @@
         android:contentDescription="@string/todo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/options" />
+        app:srcCompat="@drawable/options"
+        android:onClick="settingsButton"/>
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/pager"
