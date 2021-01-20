@@ -3,22 +3,23 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
-    android:padding="30sp"
+
     android:layout_marginTop="100dp"
-    android:background="@drawable/gradient_purple">
+    android:background="@color/LightGray">
 
     <ImageView
-        android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="193dp"
         app:srcCompat="@drawable/ic_moon"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="100dp"
         android:layout_marginBottom="50dp"/>
 
     <TableLayout
+        android:padding="30sp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginHorizontal="35dp">
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginBottom="50dp">
 
         <TableRow
             android:layout_width="fill_parent"
@@ -133,6 +134,11 @@
                 android:textSize="20sp"/>
 
         </TableRow>
+
     </TableLayout>
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/gradient_purple" />
 </LinearLayout>
