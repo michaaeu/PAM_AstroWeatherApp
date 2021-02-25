@@ -100,7 +100,7 @@
                 android:textColor="@color/TextLightGray"
                 android:textSize="20sp"/>
             <TextView
-                android:id="@+id/twilight_time"
+                android:id="@+id/full_moon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_column="1"
@@ -124,7 +124,7 @@
                 android:textColor="@color/TextLightGray"
                 android:textSize="20sp"/>
             <TextView
-                android:id="@+id/dawn_time"
+                android:id="@+id/moon_phase"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_column="1"

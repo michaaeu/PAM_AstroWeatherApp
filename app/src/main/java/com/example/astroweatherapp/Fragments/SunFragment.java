@@ -43,8 +43,8 @@ public class SunFragment extends Fragment {
         sunriseAzim = view.findViewById(R.id.sunrise_Azim);
         sunsetTime = view.findViewById(R.id.sunset_time);
         sunsetAzim = view.findViewById(R.id.sunset_Azim);
-        twilightTime = view.findViewById(R.id.twilight_time);
-        dawnTime = view.findViewById(R.id.dawn_time);
+        twilightTime = view.findViewById(R.id.full_moon);
+        dawnTime = view.findViewById(R.id.moon_phase);
     }
 
     private void initData() {
